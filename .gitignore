@@ -1,0 +1,32 @@
+# 环境变量（含密钥）
+.env
+
+# 本地配置（含敏感信息）
+config.local.sh
+
+# PostHog 官方仓库（由 deploy.sh 自动 clone）
+posthog/
+
+# 官方 compose 文件（由 deploy.sh 从官方仓库复制）
+docker-compose.yml
+docker-compose.base.yml
+docker-compose.override.yml
+dev-services.env
+
+# 启动脚本（由 deploy.sh 自动生成）
+compose/
+
+# GeoIP 数据库
+share/
+
+# 本地数据
+data/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+.claude/
+*.swp
